@@ -18,8 +18,7 @@ let main argv =
             plugins |> Seq.iter (fun x -> printfn "%d" (x.Run ()))
 
         // Try with C#
-        // Commenting out the following line causes the fSharp plugins to fail to cast. Leaving it in causes them to cast successfully. How is that possible?
-        //executePlugins cSharpPluginPath
+        executePlugins cSharpPluginPath
 
         // Try with F#
         executePlugins fSharpPluginPath

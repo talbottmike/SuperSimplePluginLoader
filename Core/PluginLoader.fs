@@ -5,7 +5,7 @@ open System.IO
 open System.Reflection
 open SSP.Core
 
-let files path = Directory.GetFiles(path,"*.dll") |> Seq.toList
+let files path = Directory.GetFiles(path,"*.Plugin*.dll") |> Seq.toList
 
 let getPluginsFromFile file =
         let a = Assembly.LoadFrom(file)
