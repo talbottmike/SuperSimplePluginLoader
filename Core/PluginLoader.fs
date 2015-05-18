@@ -1,6 +1,5 @@
 ﻿module PluginLoader
 
-open System
 open System.IO
 open System.Reflection
 open SSP.Core
