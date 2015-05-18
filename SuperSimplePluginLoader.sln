@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SSP.Console", "Console\SSP.
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SSP.Plugin", "Plugin\SSP.Plugin.fsproj", "{4670DFED-4401-40E2-9171-2587BF44BB36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPlugin", "CSharpPlugin\CSharpPlugin.csproj", "{A59C46B5-552A-4348-AE70-5514658D8198}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4670DFED-4401-40E2-9171-2587BF44BB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4670DFED-4401-40E2-9171-2587BF44BB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4670DFED-4401-40E2-9171-2587BF44BB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59C46B5-552A-4348-AE70-5514658D8198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59C46B5-552A-4348-AE70-5514658D8198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59C46B5-552A-4348-AE70-5514658D8198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59C46B5-552A-4348-AE70-5514658D8198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

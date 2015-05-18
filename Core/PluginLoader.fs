@@ -5,11 +5,7 @@ open System.IO
 open System.Reflection
 open SSP.Core
 
-
-let directoryPath = AppDomain.CurrentDomain.BaseDirectory
-let basePath = Directory.GetParent(directoryPath).Parent.Parent.Parent.FullName
-let pluginPath = basePath + @"\Plugin\bin\Debug\"
-let files () = Directory.GetFiles(pluginPath,"*.dll") |> Seq.toList
+let files path = Directory.GetFiles(path,"*.dll") |> Seq.toList
 
 let getPluginsFromFile file =
         let a = Assembly.LoadFrom(file)
@@ -26,6 +22,6 @@ let getPluginsFromFile file =
 //                        yield a.CreateInstance(t.FullName) :?> IPlugin
 //                    | _ -> printfn "Invalid plugin %s" t.FullName ]
 
-let load =
-    let f = files ()
+let loadFromPath path =
+    let f = files path
     List.collect getPluginsFromFile (f)
