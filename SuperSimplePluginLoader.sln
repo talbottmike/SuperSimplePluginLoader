@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SSP.Core", "Core\SSP.Core.fsproj", "{D4DDC2D4-347B-4776-8312-A83886691BD3}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SSP.Console", "Console\SSP.Console.fsproj", "{F631DBDF-8BA9-441E-B49F-292F3AD64A31}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SSP.Plugin", "Plugin\SSP.Plugin.fsproj", "{4670DFED-4401-40E2-9171-2587BF44BB36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4DDC2D4-347B-4776-8312-A83886691BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DDC2D4-347B-4776-8312-A83886691BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DDC2D4-347B-4776-8312-A83886691BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DDC2D4-347B-4776-8312-A83886691BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F631DBDF-8BA9-441E-B49F-292F3AD64A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F631DBDF-8BA9-441E-B49F-292F3AD64A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F631DBDF-8BA9-441E-B49F-292F3AD64A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F631DBDF-8BA9-441E-B49F-292F3AD64A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4670DFED-4401-40E2-9171-2587BF44BB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4670DFED-4401-40E2-9171-2587BF44BB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4670DFED-4401-40E2-9171-2587BF44BB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4670DFED-4401-40E2-9171-2587BF44BB36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
